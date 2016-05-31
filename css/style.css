@@ -1,0 +1,163 @@
+body{
+  background-color:#F7DCB4;
+}
+
+.board {
+  background-color: #444;
+  height: 800px;
+  width: 800px;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.colored-buttons {
+  position: relative;
+  top: 7px;
+  left: 1px;
+}
+
+.section {
+  height: 370px;
+  width: 370px;
+  display: inline-block;
+  margin: 10px;
+  cursor:pointer;
+}
+
+.red {
+  background-color: red;
+  border-top-left-radius: 100%;
+}
+
+.blue {
+  background-color: blue;
+  border-top-right-radius: 100%;
+}
+
+.green {
+  background-color: green;
+  border-bottom-left-radius: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-right-radius: 100%;
+}
+
+.settings {
+  background-color: #ccc;
+  height: 50%;
+  width: 50%;
+  border-style: solid;
+  border-color: #444;
+  border-width: 20px;
+  border-radius: 100%;
+  position: absolute;
+  top: 180px;
+  left: 180px;
+  z-index: 1;
+}
+
+.control {
+  font-size: 24px;
+  color: #003355;
+  padding: 5%;
+}
+
+#display {
+  margin: 20%;
+}
+
+#count {
+  color: #ff0000;
+  font-size: 60px;
+  background-color: #111;
+}
+
+.buttons{
+  text-align: center;
+}
+
+#start,#strict {
+background-color:#aaee11;
+  border-radius:20%;
+  display:block;
+  margin: 2% auto;
+}
+
+.light {
+  background-color:white;
+}
+
+
+@media screen and (max-width: 810px) {
+
+	.board {
+  background-color: #444;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.colored-buttons {
+  position: relative;
+  top: 2.2px;
+  left: .375px;
+}
+
+.section {
+  height: 138.75px;
+  width: 138.75px;
+  display: inline-block;
+  margin: 3.75px;
+  cursor:pointer;
+}
+
+.settings {
+  background-color: #ccc;
+  height: 50%;
+  width: 50%;
+  border-style: solid;
+  border-color: #444;
+  border-width: 7.5px;
+  border-radius: 100%;
+  position: absolute;
+  top: 67.5px;
+  left: 67.5px;
+  z-index: 1;
+}
+
+.control {
+  font-size: 9px;
+  color: #003355;
+  padding: 5%;
+}
+
+#display {
+  margin: 20%;
+}
+
+#count {
+  color: #ff0000;
+  font-size: 22.5px;
+  background-color: #111;
+}
+
+.buttons{
+  text-align: center;
+}
+
+#start,#strict {
+  font-size:6px;
+background-color:#aaee11;
+  border-radius:20%;
+  display:block;
+  margin: 2% auto;
+}
+
+}
